@@ -5,8 +5,8 @@ vcsi *.mp4 \
 -t \
 -w 3840 \
 -g 4x4 \
---metadata-font-size 32 \
---timestamp-font-size 24 \
+--metadata-font-size 36 \
+--timestamp-font-size 36 \
 --background-color 000000 \
 --metadata-font-color ffffff \
 --end-delay-percent 20
