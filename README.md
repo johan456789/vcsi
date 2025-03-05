@@ -1,3 +1,20 @@
+This generates vsc with 3840 width and uses suitable font sizes.
+
+```
+vcsi *.mp4 \
+-t \
+-w 3840 \
+-g 4x4 \
+--metadata-font-size 32 \
+--timestamp-font-size 24 \
+--background-color 000000 \
+--metadata-font-color ffffff \
+--end-delay-percent 20
+```
+
+
+---
+
 # vcsi
 
 ![Build Status](https://github.com/amietn/vcsi/actions/workflows/testing.yml/badge.svg)
